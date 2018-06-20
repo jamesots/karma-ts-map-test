@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "module": "none",
+        "target": "es5",
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "outDir": "../build/test"
+    },
+    "include": [
+        "../node_modules/@types/jasmines/*.d.ts",
+        "**/*.ts",
+        "../build/declarations/**.d.ts"
+    ]
+}

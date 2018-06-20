@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "none",
+        "target": "es5",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "outDir": "../build/js",
+        "sourceMap": true,
+        "declaration": true,
+        "declarationDir": "../build/declarations"
+    },
+    "include": [
+        "**/*.ts"
+    ]
+}
