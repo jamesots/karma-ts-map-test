@@ -20,3 +20,5 @@ However, it seems that karma-typescript can't cope with the
 source maps for the compiled files as it hasn't compiled them
 itself, so when it tries to find the file in sharedProcessedFiles
 it can't find them.
+
+To reproduce the problem, first run `npm run tsc`, then `npm test`
